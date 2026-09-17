@@ -1,5 +1,7 @@
 # TraceCam
 
+Live demo: https://tracecam.pages.dev/
+
 TraceCam is a client-only, mobile-first PWA that lets you align a live rear-camera scene against an uploaded reference image. Drag, pinch, rotate, adjust opacity, lock it in place, and capture the camera frame—with the overlay included only when selected.
 
 ## Run locally
