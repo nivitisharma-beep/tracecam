@@ -1,0 +1,3 @@
+export function IconButton({ children, label, active, ...props }) { return <button className={`icon-button ${active ? 'active' : ''}`} aria-label={label} title={label} {...props}>{children}</button>; }
+export function OpacityControl({ value, onChange }) { return <label className="opacity-control"><span>Opacity</span><input aria-label="Reference opacity" type="range" min="0" max="1" step=".01" value={value} onChange={e => onChange(+e.target.value)} /></label>; }
+export function Shutter({ onClick, busy }) { return <button className="shutter" aria-label="Capture photo" onClick={onClick} disabled={busy}><i /></button>; }

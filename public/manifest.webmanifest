@@ -1,0 +1,5 @@
+{
+  "name": "TraceCam", "short_name": "TraceCam", "start_url": "/", "display": "standalone",
+  "background_color": "#090a0c", "theme_color": "#090a0c", "orientation": "portrait",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
